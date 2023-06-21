@@ -397,7 +397,6 @@ margin: 20px;}
   
   @media screen and (max-width: 640px) {
     .checkbox-wrapper-4 .cbx {
-      width: 100%;
       display: inline-block;
     }
   }
@@ -588,7 +587,7 @@ font-weight: bold;
 
   
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:767px) {
   .respons{display: block;} 
   
   .exit svg {
