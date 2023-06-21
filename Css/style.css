@@ -1899,7 +1899,7 @@ text-align: left;
 margin: 10px;
 text-transform: var(--typo-headline-small-transform,none );
 letter-spacing: var(--typo-headline-small-letter-spacing,0 );
-font: var(--typo-headline-small-font,700 1.5rem "Roboto Condensed",sans-serif );
+font: var(--typo-headline-small-font,700 1.5rem );
 color: var(--debug-typo-color,var(--color-primary,rgba(25,25,25,1)));
 text-transform: uppercase;
 
@@ -1910,13 +1910,13 @@ text-transform: uppercase;
 label  {
   text-transform: var(--typo-copy-small-transform,none );
   letter-spacing: var(--typo-copy-small-letter-spacing,0 );
-  font: var(--typo-copy-small-font,400 0.875rem / 1.5 Roboto,sans-serif );
+  font: var(--typo-copy-small-font,400 0.875rem / 1.5 );
   color: var(--debug-typo-color,var(--color-primary,rgba(25,25,25,1)));
 }
  .Add input[type="time"],.Add input[type="date"] {
   text-transform: var(--typo-headline-small-transform,none );
   letter-spacing: var(--typo-headline-small-letter-spacing,0 );
-  font: var(--typo-headline-small-font,700 1.5rem "Roboto Condensed",sans-serif );
+  font: var(--typo-headline-small-font,700 1.5rem  );
   color: var(--debug-typo-color,var(--color-primary,rgba(25,25,25,1)));
   text-align: left;
   border-bottom: 2px solid black;
@@ -1944,7 +1944,7 @@ label {
   color: var(--color-primary,rgba(25,25,25,1));
   text-transform: var(--typo-input-small-transform,none );
   letter-spacing: var(--typo-input-small-letter-spacing,0 );
-  font: var(--typo-input-small-font,700 1.25rem "Roboto Condensed",sans-serif );
+  font: var(--typo-input-small-font,700 1.25rem );
 }
 
   }
