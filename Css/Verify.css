@@ -1,0 +1,52 @@
+body {
+width: 100%;
+height: 100vh;
+    text-align: center;
+display: flex;
+overflow: hidden;
+background: white;
+font-family: sans-serif;
+background-image: url(../img/Audi.jpeg);
+background-size: cover;
+background-position: center center;
+}
+
+h1 {
+    color: #333333;
+    font-size: 32px;
+}
+
+p {
+    color: #666666;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.button {
+    display: inline-block;
+    background-color: #003f82;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.button:hover {
+    background-color: #06284d;
+}
+
+.container {
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 6px;
+margin-top: 20vh;
+}
+
+@media screen and (max-width:992px) {
+    .container {background: white;}
+
+}
