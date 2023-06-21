@@ -1196,6 +1196,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 padding: 20px;
+background-size: cover;
+background-position: center center;
 }
 
 .offer p {
@@ -2051,7 +2053,7 @@ label {
     .Grid{display: block;
     height: auto;
     }
-    .card-Grid{display: block;}
+    /* .card-Grid{display: block;} */
   
     .offer-offer{width: 100%;}
   
