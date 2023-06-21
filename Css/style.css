@@ -206,7 +206,7 @@ justify-content: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px;
+  margin: 13px;
 }
 
 .zah-cixbgt.bLHlxK {
@@ -1970,7 +1970,7 @@ label {
   @media(max-width: 767px) {
 
     button#no-hid, #hidden{
-      text-align: left;
+      text-align: right;
       margin: 10px;
   }
 
@@ -2012,6 +2012,7 @@ label {
 
 .search {
     border-bottom: 1px solid black;
+    direction: rtl;
 }
       
     .heding {display: none;}
