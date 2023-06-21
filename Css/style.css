@@ -1967,7 +1967,7 @@ label {
   */
 
 
-  @media(max-width: 767px) {
+  @media(max-width: 992px) {
 
     button#no-hid, #hidden{
       text-align: right;
@@ -2116,7 +2116,7 @@ label {
     }
   
     .home-cards {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr;
     }
   
     .Our-Tame {
