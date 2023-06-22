@@ -2311,3 +2311,13 @@ div#input-no-hid {
   width: 80%;
   margin: auto;
 }
+
+
+@media screen and (max-width:992px) {
+  .card-Grid {
+    display: block;}
+    .card-Grid {
+      height: auto;
+  }
+  .Grid-img{height: 30vh;}
+}
