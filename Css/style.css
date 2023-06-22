@@ -2320,4 +2320,9 @@ div#input-no-hid {
       height: auto;
   }
   .Grid-img{height: 30vh;}
+
+  .Contenar-our.aos-init.aos-animate {
+    width: 100%;
+    margin: auto;
+  }
 }
