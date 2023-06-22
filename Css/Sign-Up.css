@@ -11,7 +11,7 @@ body{overflow: hidden;}
 height: 100vh;
 display: flex;
 align-items: center;
-justify-content: center;
+justify-content: space-between;
 }
 
 .Container-Sign-Up{
@@ -293,6 +293,14 @@ select{border: none;}
   font-weight: 900;
 margin-left: 20px;}
 @media screen and (max-width:992px) {
+
+  .Container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
   .logo h1 {font-size: 1.5rem;}
 }
 
