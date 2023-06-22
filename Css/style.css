@@ -2289,11 +2289,17 @@ details div span:hover {
     text-transform: capitalize;
 }
 
-.card-Grid{height: auto;}
+.card-Grid{height: auto; display: block;}
 .home-cards {
   grid-template-columns: 1fr ;
 }
+
+
 }
 
 
 
+
+div#input-no-hid {
+  width: 100%;
+}
