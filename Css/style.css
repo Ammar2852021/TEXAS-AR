@@ -675,18 +675,18 @@ margin-left: -45vh;
   align-items: center;
   }
 
-.Promised{
-text-align: center;
-width: 90%;
-height: 16vh; 
-display: grid;
-grid-template-columns: 3fr 1fr 1fr 1fr 1fr 2fr;
-background-color: white;
-position: relative;
-border-radius: 0px 5px 5px 5px;
-margin-top: 20vh;
-align-items: center;
-}
+  .Promised{
+    text-align: center;
+    width: 98%;
+    height: 16vh; 
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: white;
+    position: relative;
+    border-radius: 0px 5px 5px 5px;
+    margin-top: 20vh;
+    align-items: center;
+    }
 
 .Promised .Top{position: absolute;
 width: 30%;
@@ -1805,8 +1805,6 @@ justify-content: center;
     .Promised .Top{display: none;}
 
       
-    .Promised .Top{display: block;
-      width: 100%;}
 
    
       .Top-TOP {
