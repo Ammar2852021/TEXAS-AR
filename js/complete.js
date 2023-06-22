@@ -292,3 +292,21 @@ var target_drop = localStorage.getItem("drop_off_area");
 if (!myArray.includes(target_drop)) {
   total.innerText = `${Number(total.innerText.match(/[0-9.,]+/)[0]) + an_lo}$`;
 }
+
+
+
+
+
+
+let frr = document.getElementById('frr')
+
+
+
+getData(APIs.host + APIs.social).then((data) => {
+  data["data"].forEach((e) => {
+    social[`${e.key}`] = e.value;
+  });
+
+  frr.innerHTML += `<span style='font-size:10px'>(+${social["another_location"]}$)</span>`;
+  localStorage.setItem("another_location", social["another_location"]);
+});
