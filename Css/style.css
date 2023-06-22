@@ -1196,7 +1196,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 padding: 20px;
-background-size: cover;
+background-size: contain;
+background-repeat: no-repeat;
 background-position: center center;
 }
 
@@ -1980,7 +1981,7 @@ label {
     .TOPS{display: none;}
 
     .Promised .Top{border-radius: 0px;
-      top: -40px;}
+      top: -60px;}
 
       .Top-TOP button {
         color: black;
@@ -2118,7 +2119,7 @@ label {
     }
   
     .home-cards {
-      grid-template-columns: 1fr ;
+      grid-template-columns: 1fr  1fr;
     }
   
     .Our-Tame {
@@ -2289,4 +2290,10 @@ details div span:hover {
 }
 
 .card-Grid{height: auto;}
+.home-cards {
+  grid-template-columns: 1fr ;
 }
+}
+
+
+

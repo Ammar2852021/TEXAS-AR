@@ -8,7 +8,7 @@ getData(APIs.host + APIs.social).then((data) => {
   data["data"].forEach((e) => {
     if (protection_price) {
       if (e.key === "protection") {
-        protection_price.innerText = `$ ${e.value} /day`;
+        protection_price.innerText = `$ ${e.value} / لليوم`;
         pr_price = e.value * Number(localStorage.getItem("days"));
         _price = Number(total.innerText.match(/[0-9.,]+/)[0]);
       }
