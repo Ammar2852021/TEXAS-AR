@@ -1147,7 +1147,9 @@ color: black;
   font-size: 5rem;
   color: black;
   margin: -8vh 0px -15px 12vh;
-  font-weight: bold;}
+  font-weight: bold;
+font-family: sans-serif;
+}
 
   .showcase p{color: black;
   font-size: 2rem;
@@ -1437,7 +1439,7 @@ color: white;}
 
 
 #label{display: none;}
-
+.logo h1{font-family: sans-serif;}
 
 /* 
 @media screen and (max-width:767px) {
