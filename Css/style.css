@@ -1975,6 +1975,8 @@ label {
     button#no-hid, #hidden{
       text-align: right;
       margin: 10px;
+      height: 5vh;
+
   }
 
 
@@ -2044,7 +2046,7 @@ label {
           
     }
 
-    .Promised{margin-top: 10vh;}
+    /* .Promised{margin-top: 10vh;} */
   
   
   
