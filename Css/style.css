@@ -1949,6 +1949,7 @@ label {
   text-transform: var(--typo-input-small-transform,none );
   letter-spacing: var(--typo-input-small-letter-spacing,0 );
   font: var(--typo-input-small-font,700 1.25rem );
+  text-align: right;
 }
 
   }
