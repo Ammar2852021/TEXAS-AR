@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+* {font-family: 'Cairo', sans-serif;}
+
+
+
+
 body{overflow: hidden;}
 
 
@@ -13,12 +19,7 @@ margin-left: 20px;
 direction: rtl;
 }
 
-/* .Container .Container-Sign-Up .Logo h1 {margin: 15px;
-font-family: sans-serif;
-letter-spacing: 3px;
-color: #003f82;
-font-weight: 800;
-} */
+
 @media screen and (max-width:992px) {
   .logo h1 {font-size: 1.5rem;}
 }
@@ -31,9 +32,9 @@ font-weight: 800;
         grid-template-columns: 1fr 1fr;
        }
         .Container .Container-Sign-Up .Sign-Up p {font-size: large; 
-        font-family: sans-serif;text-transform: uppercase;}
+    text-transform: uppercase;}
         .Container .Container-Sign-Up .Sign-Up a {text-decoration: none;text-transform: uppercase;}
-        .Container .Container-Sign-Up .Sign-Up h2{font-family: sans-serif; text-transform: uppercase;
+        .Container .Container-Sign-Up .Sign-Up h2{ text-transform: uppercase;
         font-size: xx-large;}
 
         input{outline: none; border: none; background: #f3f6fb;
@@ -42,7 +43,7 @@ font-weight: 800;
         border-radius: 10px;
         padding: 10px;
         color: black;
-        font-family: sans-serif;}
+   }
 
         input[type="email"]  {grid-column-start: 1; 
         grid-column-end: 3;
@@ -62,7 +63,6 @@ height: 7vh;
 
   
         .material-checkbox{ display: flex; align-items: center;
-        font-family: sans-serif;
         }
 
              
@@ -316,7 +316,6 @@ nav ul li {
   font-size: 2rem;
   display: flex;
   font-weight: 900;
-  font-family: sans-serif;
 }
 
 

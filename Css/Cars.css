@@ -1,4 +1,15 @@
-*{margin: 0%; padding: 0%; font-family: sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+
+
+* {box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: 'Cairo', sans-serif;}
+
+
+
+*{margin: 0%; padding: 0%;
 text-decoration: none;
 }
 
@@ -211,7 +222,6 @@ nav ul li {
   
   .span-top{font-size: 20px;
   font-weight: 500;
-  font-family: sans-serif;
   color: #eee;
   font-weight: bold;
   }
@@ -263,7 +273,6 @@ nav ul li {
     .search__input {
       text-align: center;
       border-radius: 5px;
-      font-family: inherit;
       font-size: inherit;
       background:none;
       color: black;
@@ -423,7 +432,7 @@ font-size: large;
 .card-salre h2 {
   text-transform: var(--typo-caption-big-transform, none );
   letter-spacing: var(--typo-caption-big-letter-spacing, 0 );
-  font: var(--typo-caption-big-font, 700 1.25rem "Roboto Condensed",sans-serif );
+  font: var(--typo-caption-big-font, 700 1.25rem  );
   color: var(--debug-typo-color,var(--color-highlight,rgb(0, 0, 0)));
 }
 

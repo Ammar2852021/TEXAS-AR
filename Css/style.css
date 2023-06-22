@@ -1,21 +1,11 @@
-
-:root{
---body-color:black;
---body-color:black;
---body-color:black;
---body-color:black;
---body-color:black;
---body-color:black;}
-
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 
 
 
 * {box-sizing: border-box;
 margin: 0;
 padding: 0;
-font-family:sans-serif;
-
-}
+font-family: 'Cairo', sans-serif;}
 
 
   .container-main{width: 100%; 
@@ -25,7 +15,6 @@ overflow: hidden;}
 
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background:aliceblue;
   color: #000;
   font-size: 15px;
@@ -35,7 +24,7 @@ body {
 
 .ARBLANG-tr{display: none;}
 p.ARBLANG-tr {
-    font-family: system-ui;
+
     font-weight: bold;
 }
 
@@ -610,7 +599,6 @@ margin-left: -45vh;
     font-size: 4rem;
     text-transform: uppercase;
     font-weight: 900;
-    font-family: sans-serif;
     margin-top: -15vh;
 
 }
@@ -721,7 +709,6 @@ justify-content: center;
 
 .span-top{font-size: 20px;
 font-weight: 500;
-font-family: sans-serif;
 color: #003f82;
 font-weight: bold;
 text-transform: capitalize;
@@ -789,7 +776,6 @@ input[type="date"],input[type="time"], .search__input{
   .search__input {
     /* text-align: center; */
     border-radius: 5px;
-    font-family: inherit;
     font-size: inherit;
     background:none;
     color: black;
@@ -859,11 +845,11 @@ height: -webkit-fill-available;
 .offer-offer-text{margin: 10px;
 padding-left: 10px;}
 
-.offer-offer-text h2 {font-size: 20px; color: black; font-weight: 700; font-family: sans-serif; text-transform: capitalize;}
-.offer-offer-text p {font-size: 15px; color: black; font-weight: 700; font-family: sans-serif; text-transform: capitalize;}
+.offer-offer-text h2 {font-size: 20px; color: black; font-weight: 700; text-transform: capitalize;}
+.offer-offer-text p {font-size: 15px; color: black; font-weight: 700; text-transform: capitalize;}
 
 
-.offer-offer-text a {text-decoration: none; color: #003f82; font-family: sans-serif;}
+.offer-offer-text a {text-decoration: none; color: #003f82;}
 
 .offer-offer-img{
 
@@ -912,7 +898,6 @@ background-position: center center;
 
 .Our-Service h2 {
   color: white;
-  font-family: sans-serif;
   margin: 20px;
   text-transform: capitalize;
   font-weight: 700;
@@ -920,7 +905,6 @@ background-position: center center;
 
 .Our-Service .Our-Service-p{
   color: white;
-  font-family: sans-serif;
   text-transform: capitalize;
   margin-right: 20px;
 
@@ -1024,12 +1008,11 @@ border-radius: 30px;}
 text-align: left;
 margin: 20px;
 color: black;
-font-family: sans-serif;}
+}
 
 
 .About-text p {text-transform: capitalize;
    color: black;
-   font-family: sans-serif;
   font-size: 1rem;}
 
 
@@ -1160,7 +1143,6 @@ font-family: sans-serif;}
 
   
 .showcase h2 {
-  font-family: inherit;
   letter-spacing: 10px;
   font-size: 5rem;
   color: black;
@@ -1184,12 +1166,12 @@ font-family: sans-serif;}
 
 .Our-Fleet{padding: 20px; margin-top: 15vh;}
 
-.Our-Fleet h2 {color: black; font-family: sans-serif; margin: 20px; text-transform: capitalize;
+.Our-Fleet h2 {color: black; margin: 20px; text-transform: capitalize;
   margin-bottom: 0;
 font-weight: 700;
 text-align: center;
 }
-.Our-Fleet p {color: black; font-family: sans-serif; text-transform: capitalize; margin-left: 20px;
+.Our-Fleet p {color: black; text-transform: capitalize; margin-left: 20px;
 text-align: center;
 }
 
@@ -1254,7 +1236,6 @@ margin-top: 2vh;
 
 .Contenar-our h2{
   color: black;
-  font-family: sans-serif;
   margin: 20px;
   text-transform: capitalize;
   margin-bottom: 0;
@@ -1781,7 +1762,6 @@ padding: 2px;
   background-color: #f9f9f9;
 }
  .Email {color: white; 
-font-family: sans-serif;
 text-transform: capitalize;
 letter-spacing: 1px;
 display: flex;
@@ -2001,7 +1981,6 @@ label {
       .Top-TOP button {
         color: black;
         font-size: 1rem;
-        font-family: sans-serif;
     }
     .top-nav .menu-icon {
   
