@@ -294,11 +294,15 @@ if (!myArray.includes(target_drop)) {
 }
 
 
+let frr = document.getElementById('frr')
+
 
 getData(APIs.host + APIs.social).then((data) => {
   data["data"].forEach((e) => {
     if(e.key === "another_location"){
       console.log(e.value);
+      frr.innerHTML += `<span style='font-size:15px'>(+${e.value}$)</span>`;
+
     }
   });
 });
