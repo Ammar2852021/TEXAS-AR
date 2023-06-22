@@ -650,7 +650,7 @@ font-weight: bold;
     width: 95%;
     /* gap: 6px; */
 }
-.form label .input{width: 90%;}
+.form label .input{width: 100%;}
 }
 
 
@@ -705,6 +705,7 @@ height: auto;
   right: 0px;
   width: 100%;
   display: none;
+  height: auto;
 }
 .car-img .img img {
   width: 80px;
