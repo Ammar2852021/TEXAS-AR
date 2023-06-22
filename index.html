@@ -108,8 +108,12 @@
                   <div class="Top">
                      <div class="Top-TOP TOPS"><span class="span-top" style="color: #003f82;">اختر الموقع</span></div>
                      <div class="Top-TOP">
-                    <button id="no-hid" class="tr" >موقع استلام السيارة </button>
-                    <button id="hidden" class="tr"  style="display: none;" >موقع تسليم السيارة</button>
+                    <button id="no-hid" class="tr" >موقع عودة مختلف + </button>
+                    <div class="input-hid" id="input-hid" style="display: none;">
+                     <input  class="search__input" id="delivary" placeholder="اختيار مكان التسليم"/> 
+                     <datalist id="delivaries">
+                     </datalist>
+                  </div>
 
                      </div>
                   </div>
@@ -122,11 +126,7 @@
                            <input  class="search__input"  id="Address" placeholder="اختيار مكان الاستلام" autoComplete="on" list="suggestions"/>    
                         </div>
 
-                     <div class="input-hid" id="input-hid" style="display: none;">
-                        <input  class="search__input" id="delivary" placeholder="اختيار مكان التسليم"/> 
-                        <datalist id="delivaries">
-                        </datalist>
-                     </div>
+                    
 
                         <button class="search__button">
                            <svg class="search__icon" aria-hidden="true" viewBox="0 0 24 24">

@@ -1811,12 +1811,13 @@ justify-content: center;
    
       .Top-TOP {
           background-color: white;
-          float: right;
+          /* float: right;
           display: flex;
           align-items: center;
           justify-content: center;
           width: inherit;
-          height: inherit;
+          height: inherit; */
+          /* width: 100%; */
           
       }
       
