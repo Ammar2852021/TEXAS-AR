@@ -92,12 +92,16 @@ font-weight: bold;
 font-size: 20px;
 }
 
+.social-circle li a{margin: 5px;}
+
 
 
 .top-nav .logo {
  display: flex; justify-content: center; align-items: center;
 }
 @media screen and (max-width:992px) {
+
+
   #input-hid{display: block; width: 100%;}
   .logo{margin-top: 1vh;}
 }
